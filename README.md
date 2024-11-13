@@ -1,5 +1,19 @@
-# Mantine Vite template
+# Local setup
 
-Get started with the template by clicking `Use this template` button on the top of the page.
+    git clone https://github.com/sharabhh/crop-data-analysis.git
+- open the folder on terminal
 
-[Documentation](https://mantine.dev/guides/vite/)
+    `yarn install`
+    `yarn run dev`
+- open http://localhost:5173/ on your local environment
+
+
+[My deployed link](https://legendary-cobbler-f27f57.netlify.app/)
+
+# Tech Stack used
+
+Reactjs with Typescript from the template provided and mantine
+
+## assumptions made
+
+tried to keep styling to a minimal and focus on the core logic, and also downloaded the json file in the file system. 

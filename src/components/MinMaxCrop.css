@@ -1,0 +1,22 @@
+/* minimising the usage of styling and using the bare mantine styling */
+
+/* made the tables scrollable to avoid the endless scrolling of webpage */
+.min-max-container {
+  display: flex;
+  width: 600px;
+  height: 500px;
+  overflow-y: scroll;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 1200px) {
+  .min-max-container {
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .min-max-container {
+    width: 310px;
+  }
+}
